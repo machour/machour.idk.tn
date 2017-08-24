@@ -1,0 +1,33 @@
+{
+  "name": "@machour/machour.idk.tn",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Mehdi Achour's web site",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@stencil/core": "next",
+    "@stencil/router": "0.0.4"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machour/machour.idk.tn.git"
+  },
+  "author": "Ionic Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/machour/machour.idk.tn/issues"
+  },
+  "homepage": "https://machour.idk.tn/"
+}
